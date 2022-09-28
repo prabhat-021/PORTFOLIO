@@ -1,4 +1,45 @@
-.App {
+/* .App {
   font-family: sans-serif;
   text-align: center;
+} */
+body{
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;}
+/* Navbar css started */
+.navbar{
+  display: flex;
 }
+.nav-img{
+  width:120px;
+  margin: 10px 40px 10px 40px;
+ display: block;
+}
+.nav-item{
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  /* float: right; */
+  /* margin-right: auto; */
+  /* text-align: right; */
+  width: 100%;
+}
+/* .it{
+text-align: right;
+
+float: right;
+margin-right: auto;
+} */
+.item{
+  /* text-align: right; */
+  /* margin-right: auto; */
+  padding: 0 4% 0 4%;
+ 
+}
+.active{
+color: #8490ff;
+    /* color: #fff; */
+}
+/* Navbar css ends */
