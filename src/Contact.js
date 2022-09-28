@@ -1,5 +1,5 @@
 import Navbar from "./Navbar";
 
-export default function(){
+export default function Contact(){
    return <Navbar />
 }
