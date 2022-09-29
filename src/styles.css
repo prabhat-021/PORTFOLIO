@@ -103,12 +103,13 @@ color: #8490ff;
     padding-left: 30px;
     padding-right: 30px;
     border: none;
+    border-radius: 6px;
     color: #fff;
     display: inline-block;
     font-weight: 500;
     background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
 }
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 400px) {
   .head-h2{
     line-height: 2.3rem;
   }
@@ -165,3 +166,33 @@ color: #8490ff;
 
 }
 /* hEADER css ends */
+
+/* Mid-Section css start */
+.mid{
+  display: flex;
+  margin-left:5%;
+  margin-right:5%;
+}
+.mid-img-1{
+  height: 383px;
+  border-radius: 15px;
+  margin: 10%;
+}
+.mid-text{
+  justify-content: right;
+  /* text-align: right; */
+  padding-top: 35px;
+  margin-left: 10%;
+}
+
+/* Mid-Section css ends */
+
+/* Mid-Section-2 css Start */
+.mid2{
+  background-color: #f9f9ff;
+}
+.mid2-h1{
+  text-align: center;
+}
+
+/* Mid-Section-2 css ends */

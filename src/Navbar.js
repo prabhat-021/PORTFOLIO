@@ -9,7 +9,7 @@ export default function Navbar() {
   return (
     <section className="nav-sec">
       <div className="navbar">
-        <img src={img1} className="nav-img" />
+        <img src={img1} className="nav-img" alt="navIcon" />
         <ul className={icons ? "nav-item-mobile" : "nav-item "}
         onClick={()=> setIcon(false)}>
           <li className="item">

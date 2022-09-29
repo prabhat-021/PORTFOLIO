@@ -7,8 +7,8 @@ export default function Header() {
            <div className="head-text-in">
                 <h4 className="head-h1" >THIS IS ME </h4>
                 <h1 className="head-h2">PRABHAT SEHRAWAT</h1>
-                <p className="head-p1">Web Devloper || Member-TEDxKIET || Member-DSC_KIET || Member-MYCIN_KIET || Technical Geek || 2025🎓engineering Undergrad.</p>
-                <Link to="./about" className="head-btn">DOWNLOAD RESUME</Link>
+                <p className="head-p1">Web Devloper || Member-TEDxKIET || Member-DSC_KIET || Member-MYCIN_KIET || Technical Geek || 2025🎓Engineering Undergrad.</p>
+                <Link to="/about" className="head-btn">DOWNLOAD RESUME</Link>
             </div>
            </div>
             <div>
