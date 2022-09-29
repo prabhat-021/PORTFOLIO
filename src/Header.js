@@ -11,7 +11,7 @@ export default function Header() {
                 <Link to="/about" className="head-btn">DOWNLOAD RESUME</Link>
             </div>
            </div>
-            <div>
+            <div className="head-img-m">
                 <img src={img1} alt="prabhat_jpg" className="head-img" />
             </div>
         </section>
