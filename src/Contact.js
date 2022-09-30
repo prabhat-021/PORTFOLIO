@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 import MapContainer from "./Map";
+import Footer from "./Footer";
 export default function Contact() {
    return (
       <section>
@@ -7,6 +8,7 @@ export default function Contact() {
          <div className="map">
          <MapContainer />
          </div>
+         <Footer />
       </section>
    );
 }

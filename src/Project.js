@@ -1,5 +1,10 @@
 import Navbar from "./Navbar";
-
+import Footer from "./Footer";
 export default function Project(){
-    return <Navbar />
+    return (
+        <section>
+    <Navbar />
+    <Footer />
+    </section>
+    );
 }
