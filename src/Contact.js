@@ -1,5 +1,12 @@
 import Navbar from "./Navbar";
-
-export default function Contact(){
-   return <Navbar />
+import MapContainer from "./Map";
+export default function Contact() {
+   return (
+      <section>
+         <Navbar />
+         <div className="map">
+         <MapContainer />
+         </div>
+      </section>
+   );
 }

@@ -337,3 +337,21 @@ margin-right: auto;
   }
 }
 /* Count-Section css ends */
+
+/* Contact css start */
+.map{
+  margin-left: 5%;
+  text-align: center;
+  justify-content: center;
+  /* position: sticky; */
+  /* position:relative; */
+}
+#map-1{
+  position: relative;
+}
+/* @media only screen and (max-width: 400px){
+  .map{
+    z-index: 0;
+  }
+} */
+/* Conatact css ends  */
