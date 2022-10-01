@@ -14,11 +14,11 @@ export default function Count() {
            <p>Project Completed</p>
            </div>
            <div className="count">
-           <h1 className="count-1">{ countUp && <CountUp start={0} end={200} duration={2} delay={0} />}+</h1>
+           <h1 className="count-1">{ countUp && <CountUp start={0} end={400} duration={2} delay={0} />}+</h1>
            <p>Lecture Completed</p>
            </div>
            <div className="count">
-           <h1 className="count-1">{ countUp && <CountUp start={0} end={300} duration={2} delay={0} />}+</h1>
+           <h1 className="count-1">{ countUp && <CountUp start={0} end={250} duration={2} delay={0} />}+</h1>
            <p>Cup Of Coffee</p>
            </div>
            <div className="count">

@@ -221,7 +221,7 @@ margin-right: auto;
   font-weight: 700;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 420px) {
   .mid {
     display: block;
     margin: 0;
@@ -299,7 +299,7 @@ margin-right: auto;
   line-height: 1.625em;
   margin: 3%;
 }
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 420px){
   .mid2{
     padding-top: 20%;
     /* margin-top: 20%; */
@@ -332,7 +332,7 @@ margin-right: auto;
 .count-1{
   font-size: 36px;
 } 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 420px){
   .count-grid{
     display: block;
   }
@@ -350,10 +350,80 @@ margin-right: auto;
 #map-1{
   position: relative;
 }
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 420px){
   .map{
     z-index: 0;
     margin-top: 10%;
   }
 }
 /* Conatact css ends  */
+
+/* Footer-section css start */
+/* .footer{
+  position: relative;
+  margin-top: 20%;
+}
+.contact-section{
+display: grid;
+grid-template-rows: 1fr 1fr;
+/* position: relative; */
+.foot-list-h1{
+  color: #fff!important;
+  margin-bottom: 40px;
+  font-weight: 500;
+  font-size: 2rem;
+}
+.foot-grid{
+  display: grid;
+  grid-template-columns: 1fr 0.9fr 1fr 1fr;
+  background-color: #04091e;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.icon-list{
+  list-style: none;
+  padding: 0;
+}
+.icon-list-1{
+  font-size: 1.5rem;
+  margin-bottom: 2%;
+  letter-spacing: 1.5px;
+  color: #777;
+  text-decoration: none;
+  list-style: none;
+}
+.icon-list-2{
+  margin: 6% 0 6% 0;
+}
+.icon-list-3{
+  margin: 3% 0 3% 0;
+}
+.foot-social{
+  text-align: left;
+  margin-left: 15%;
+}
+.foot-link .foot-services{
+  text-align: left;
+  margin-right: 4%;
+}
+.services-ls{
+  margin-bottom: 5%;
+  /* text-align: left ;
+  padding-left: 0%; */
+}
+.question{
+  font-size: 1.2rem;
+  margin: 6% 0 6% 0;
+}
+#question-icon{
+  font-size: 1.9rem;
+}
+@media only screen and (max-width: 420px){
+  .foot-grid{
+    display: block;
+  }
+  .foot-social{
+    margin-left: 0;
+  }
+}
+/* Footer-section css ends */

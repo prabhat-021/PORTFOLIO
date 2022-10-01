@@ -2,7 +2,7 @@ import img1 from "./images/prabhat1.jpg"
 import { Link } from "react-router-dom";
 export default function Header() {
     return (
-        <section className="header">
+        <header className="header">
            <div className="head-text">
            <div className="head-text-in">
                 <h4 className="head-h1" >THIS IS ME </h4>
@@ -14,7 +14,7 @@ export default function Header() {
             <div className="head-img-m">
                 <img src={img1} alt="prabhat_jpg" className="head-img" />
             </div>
-        </section>
+        </header>
     );
 
 }

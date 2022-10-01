@@ -5,10 +5,14 @@ export default function Contact() {
    return (
       <section>
          <Navbar />
-         <div className="map">
-         <MapContainer />
+         <div className="contact-section">
+            <div className="map">
+               <MapContainer />
+            </div>
+            <div className="footer">
+               {/* <Footer /> */}
+            </div>
          </div>
-         <Footer />
       </section>
    );
 }
