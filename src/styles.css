@@ -427,3 +427,29 @@ grid-template-rows: 1fr 1fr;
   }
 }
 /* Footer-section css ends */
+
+/* About-section css start */
+.about-header-1 {
+  background: -webkit-linear-gradient(0deg,#8490ff 0%,#62bdfc 100%);
+  text-align: center ;
+  padding: 90px 0;
+}
+.about-header{
+  display: flex;
+  /* text-align: center; */
+  justify-content: center;
+}
+.about-h1{
+  color: #fff!important;
+  font-size: 50px ;
+}
+.about-link{
+  text-decoration: none;
+  color: #fff!important;
+  font-size: 15px;
+  margin: 2px 10px 2px 10px;
+}
+.sy1{
+  font-size: 30px;
+}
+/* About-section css ends */
