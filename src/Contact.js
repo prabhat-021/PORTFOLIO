@@ -7,6 +7,10 @@ import HomeIcon from '@mui/icons-material/Home';
 import PhoneIcon from '@mui/icons-material/Phone';
 import EmailIcon from '@mui/icons-material/Email';
 export default function Contact() {
+   function Clicked() {
+      alert("Your Response has been sent! ")
+   }
+
    const form = useRef();
 
    const sendEmail = (e) => {
@@ -46,8 +50,8 @@ export default function Contact() {
                               {/* <label>Message</label> */}
                            </div>
                            <div className="form-right">
-                              <textarea  className="form-message" placeholder='Enter your Message' name="message" />
-                              <input type="submit" value="Send Message" className='head-btn msg-btn' />
+                              <textarea className="form-message" placeholder='Enter your Message' name="message" />
+                              <input type="submit" value="Send Message" className='head-btn msg-btn' onClick={Clicked} />
                            </div>
                         </div>
                      </form>

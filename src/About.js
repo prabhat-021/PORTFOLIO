@@ -17,9 +17,9 @@ export default function About(){
     </div>
     <Mid1 />
     <div className="about-description">
-        <li className="about-description-p1">I am Prabhat Sehrawat,I am from Meerut , I have done my Schooling from St. John's Senior Secondary School.Currently i am Pursuing B.tech in Computer Science From KIET Group Of Institition. I am a Second Year student .I love to do Coding . I have Completed Web-Devleopment Course(MERN-stack).In my free time I love to Explore about GeoPolitics.</li>
-        <li className="about-description-p1">My Web Devleopment journy started in january(2022). Starting from Html/css. I have Completed React.js and made some project on it . Also i have tried Backend Development and made small project on it . 
-        In Backend i  have done Node js with Express and For database i have done MongoDb . Also have Knowledge of MySQL(basics). I Have started Coding in C++ and practicing program on it . and Know basics of Python/java also,as i have done both of these languages in my Schooling only . </li>
+        <li className="about-description-p1">I am Prabhat Sehrawat. I am from Meerut I have done my Schooling at St. John's Senior Secondary School. Currently, I am Pursuing B.tech in Computer Science From the KIET Group Of Institutions. I am a Second Year student. I love to do Coding. I have Completed Web-Development Course(MERN-stack).In my free time, I love to Explore GeoPolitics.</li>
+        <li className="about-description-p1">My Web Development journey started in January(2022). Starting from Html/CSS. I have Completed React.js and made some projects on it. Also, I have tried Backend Development and made a small project on it. 
+        In the  Backend, I  have done Node js with Express and For the  database,I have done MongoDB. Also, have Knowledge of MySQL(basics). I Have started Coding in C++ and practicing programs on it . and Know the basics of Python/java also,as I have done both of these languages in my Schooling only. </li>
         <ul className="about-ul">▪️ Some small details:-
             <li className="about-ls">➣<span className="bold">Age:-</span>19 year</li>
             <li className="about-ls">➣<span className="bold">Birthday:-</span>2 June 2004</li>
