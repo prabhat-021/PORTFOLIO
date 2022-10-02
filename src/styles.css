@@ -452,4 +452,103 @@ grid-template-rows: 1fr 1fr;
 .sy1{
   font-size: 30px;
 }
+.about-description{
+  margin: 20px 5.5% 20px 5.5%;
+  /* padding: 100%; */
+  background-color: #f9f9ff;
+}
+.about-description-p1{
+  font-size: .9rem;
+  margin-bottom: 2%;
+}
+.about-ul{
+  padding: 0%;
+  font-size: 17px;
+  /* list-style-type: circle; */
+}
+.about-ls{
+  list-style: none;
+  padding-left: 2%;
+  font-size: 15px;
+}
 /* About-section css ends */
+
+/* Testimonial Section css start */
+.test-head{
+  text-align: center;
+  padding: 4% 2% 10% 2%;
+  margin: 5%;
+  background-color:ghostwhite;
+}
+.test-head-1{
+  margin-bottom: 6%;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swip-slide{
+  display: flex;
+  background-color: #f9f9ff;
+  /* width: 100%; */
+}
+.slide-content{
+  text-align: left;
+  /* margin: 2% 2% 2% 0; */
+}
+.slide-p1{
+  font-size: 15px;
+
+}
+.slide-h1{
+font-size: 18px;
+color: #04091e;
+}
+.slide-h2{
+  font-size: 16px;
+}
+.slide-img{
+  width: 100%;
+  height: 45vh;
+  margin-right: 1.5%
+}
+/* .home-text{
+  margin: 0;
+} */
+@media only screen and (max-width: 420px){
+  .swip-slide{
+    display: block;
+  }
+  .slide-img{
+    height: 30vh;
+  }
+}
+
+/* Testimonial Section css start */
