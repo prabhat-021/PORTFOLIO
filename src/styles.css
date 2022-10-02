@@ -126,7 +126,7 @@ margin-right: auto;
   background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 420px) {
   .head-h2 {
     line-height: 2.3rem;
   }
@@ -340,6 +340,10 @@ margin-right: auto;
 /* Count-Section css ends */
 
 /* Contact css start */
+
+/* .contact-background{
+  background-color: #f9f9ff;
+} */
 .map{
   margin-left: 5%;
   text-align: center;
@@ -356,17 +360,70 @@ margin-right: auto;
     margin-top: 10%;
   }
 }
-/* Conatact css ends  */
+.contact-detail{
+display: grid;
+grid-template-columns: .8fr 2fr;
+margin-top: 3%;
+margin-bottom: 3%;
+background-color: #f9f9ff;
+}
+.contact-detail-1{
+  padding: 4% 0 4% 0;
+}
+.contact-icon{
+  margin: 6% 4% 8% 8%;
+}
+.form-text{
+  padding: 15px 5% 15px 5%;
+  margin: 20px 2% 20px 1%;
+  width: 88%;
+}
+.form-in{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+.form-left{
+display: grid;
+grid-template-rows: 1fr 1fr 1fr;
+}
+.form-right{
+  text-align: right;
+  margin-right: 3%;
+}
+.form-message{
+  width: 90%;
+  height: 60%;
+  font-size: 15px;
+  margin-top: 20px;
+}
+.msg-btn{
+  margin-top: 5%;
+}
+@media only screen and (max-width: 420px){
+  .contact-detail{
+    display: block;
+  }
+  .form-in{
+    display: block;
+  }
+  .form-message{
+    padding: 15px 0 15px 0;
+    margin: 20px 0px 20px 0;
+  }
+}
+/* Contact css ends  */
 
 /* Footer-section css start */
-/* .footer{
+.footer{
   position: relative;
-  margin-top: 20%;
+  margin: 10% 5% 0 5%;
 }
 .contact-section{
 display: grid;
-grid-template-rows: 1fr 1fr;
-/* position: relative; */
+grid-template-rows: .7fr 1fr;
+ /* position: relative; */
+}
 .foot-list-h1{
   color: #fff!important;
   margin-bottom: 40px;
@@ -424,6 +481,9 @@ grid-template-rows: 1fr 1fr;
   }
   .foot-social{
     margin-left: 0;
+  }
+  .footer{
+    margin-top: 0;
   }
 }
 /* Footer-section css ends */
