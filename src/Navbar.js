@@ -13,7 +13,7 @@ export default function Navbar() {
         <ul className={icons ? "nav-item-mobile" : "nav-item "}
         onClick={()=> setIcon(false)}>
           <li className="item">
-            <NavLink className="item"  to="/home">Home </NavLink>
+            <NavLink className="item"  to="/">Home </NavLink>
           </li>
           <li className="item">
             <NavLink className="item"  to="/about">About </NavLink>
