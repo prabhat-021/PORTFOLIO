@@ -435,7 +435,9 @@ margin-right: auto;
     margin: 20px 0px 20px 0;
   }
 }
-
+.map-section{
+  margin: 5%;
+}
 /* Contact css ends  */
 
 /* Footer-section css start */
@@ -444,11 +446,11 @@ margin-right: auto;
   margin: 10% 5% 0 5%;
 }
 
-.contact-section {
-  display: grid;
-  grid-template-rows: .7fr 1fr;
-  /* position: relative; */
-}
+/* .contact-section {
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+} */
 
 .foot-list-h1 {
   color: #fff !important;

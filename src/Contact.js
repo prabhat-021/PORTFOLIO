@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Navbar from "./Navbar";
-import MapContainer from "./Map";
+// import MapContainer from "./Map";
 import Footer from "./Footer";
 import HomeIcon from '@mui/icons-material/Home';
 import PhoneIcon from '@mui/icons-material/Phone';
@@ -27,9 +27,18 @@ export default function Contact() {
       <section className="contact-background">
          <Navbar />
          <div className="contact-section">
-            <div className="map">
-               <MapContainer />
+            <div className='map-section'>
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3497.873407301582!2d77.49468907402336!3d28.753196378593678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf574d18f2b6f%3A0x4a65c0bc0122eb2f!2sKIET%20Group%20of%20Institutions!5e0!3m2!1sen!2sin!4v1669558384195!5m2!1sen!2sin"
+                  width="100%"
+                  height="450"
+                  style={{ border: 0 }}
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
+            {/* <div className="map">
+               <MapContainer />
+            </div> */}
             <div className="footer">
                <div className="contact-detail">
                   <div className="contact-detail-1">
