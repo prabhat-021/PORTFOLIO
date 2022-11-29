@@ -22,10 +22,10 @@ export default function About(){
         In the  Backend, I  have done Node js with Express and For the  database,I have done MongoDB. Also, have Knowledge of MySQL(basics). I Have started Coding in C++ and practicing programs on it . and Know the basics of Python/java also,as I have done both of these languages in my Schooling only. </li>
         <ul className="about-ul">▪️ Some small details:-
             <li className="about-ls">➣<span className="bold">Age:-</span>19 year</li>
-            <li className="about-ls">➣<span className="bold">Birthday:-</span>2 June 2004</li>
-            <li className="about-ls">➣<span className="bold">Website:-</span>www.example.com</li>
+            <li className="about-ls">➣<span className="bold">Birthday:-</span>2 June 2003</li>
+            <li className="about-ls">➣<span className="bold">Website:-</span>https://prabhat-021portfolio.netlify.app/</li>
             <li className="about-ls">➣<span className="bold">Phone:-</span>+91 9084539879</li>
-            <li className="about-ls">➣<span className="bold">Emial:-</span>prabhatsahrawat010203@gmail.com</li>
+            <li className="about-ls">➣<span className="bold">Email:-</span>prabhatsahrawat010203@gmail.com</li>
             <li className="about-ls">➣<span className="bold">City:-</span>Meerut</li>
         </ul>
     </div>

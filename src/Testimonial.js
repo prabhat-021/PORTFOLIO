@@ -11,11 +11,33 @@ import khushi from "./images/khushi.jpeg";
 import sambhrant from "./images/sambhrant.jpeg";
 import ayush from "./images/ayush.jpeg";
 import SwiperCore, { Autoplay } from 'swiper';
+import Archit from "./images/Archit.jpeg";
+import Tushar from "./images/Tushar.jpeg";
+
+
 SwiperCore.use([Autoplay]);
 // test 
 import { Navigation } from "swiper";
 import "swiper/css/navigation";
+import React from "react";
+
+
 export default function Testimonial() {
+    const [windowSize, setWindowSize] = React.useState(getWindowSize());
+    React.useEffect(() => {
+        function handleWindowResize() {
+            setWindowSize(getWindowSize());
+        }
+        window.addEventListener('resize', handleWindowResize);
+
+        return () => {
+            window.removeEventListener('resize', handleWindowResize);
+        };
+    }, []);
+    function getWindowSize() {
+        const { innerWidth, innerHeight } = window;
+        return { innerWidth, innerHeight };
+    }
     return (
         <section className="test-head">
             <div className="test-head-1">
@@ -24,12 +46,12 @@ export default function Testimonial() {
             </div>
             <Swiper
                 navigation={true}
-                slidesPerView={2}
+                slidesPerView={windowSize.innerWidth >=400 ? 2 :1}
                 spaceBetween={30}
-                autoplay={{ 
-                    delay:2000,
-                    disableOnInteraction:false
-                    }
+                autoplay={{
+                    delay: 2000,
+                    disableOnInteraction: false
+                }
                 }
                 // pagination={{
                 //     clickable: true,
@@ -101,7 +123,7 @@ export default function Testimonial() {
                 </div></SwiperSlide>
                 <SwiperSlide> <div className="swip-slide">
                     <div className="slide-img">
-                        <img src={saket} alt="archit" />
+                        <img src={Archit} alt="archit" />
                     </div>
                     <div className="slide-content">
                         <div className="slide-p1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque</div>
@@ -111,7 +133,7 @@ export default function Testimonial() {
                 </div></SwiperSlide>
                 <SwiperSlide> <div className="swip-slide">
                     <div className="slide-img">
-                        <img src={saket} alt="tushar" />
+                        <img src={Tushar} alt="tushar" />
                     </div>
                     <div className="slide-content">
                         <div className="slide-p1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque</div>
