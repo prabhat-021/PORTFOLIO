@@ -1,7 +1,6 @@
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
-import aryan from "./images/aryan.jpeg";
 import ProjectData from "./ProjectData.js";
 
 function ncard(val) {

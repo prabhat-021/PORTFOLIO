@@ -8,10 +8,24 @@ import img7 from "./images/drumkit.png";
 import img8 from "./images/dicegame.png";
 import img9 from "./images/regform.jpg";
 import img10 from "./images/CV.png";
-
-
+import img11 from "./images/ecommerce.png";
+import img12 from "./images/TaskManager.png";
 
 const ProjectData = [
+    // {
+    //     id: 12,
+    //     imgsrc: img12,
+    //     title: "Task Manager Node",
+    //     details: "NODE/EXPRESS,MongoDB,HTML,CSS,JAVASCRIPT ",
+    //     link: "https://github.com/prabhat-021/Task-Manager-Node-Practice-1"
+    // },
+    {
+        id: 11,
+        imgsrc: img11,
+        title: "React Ecommerce",
+        details: "REACT JS,Auth0,HTML,CSS,JAVASCRIPT",
+        link: "https://react-ecommerce-021.netlify.app/"
+    },
     {
         id: 1,
         imgsrc: img1,
