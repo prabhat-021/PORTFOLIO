@@ -46,7 +46,7 @@ export default function Testimonial() {
             </div>
             <Swiper
                 navigation={true}
-                slidesPerView={windowSize.innerWidth >=400 ? 2 :1}
+                slidesPerView={windowSize.innerWidth >=1020 ? 2 :1}
                 spaceBetween={30}
                 autoplay={{
                     delay: 2000,
