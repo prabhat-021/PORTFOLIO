@@ -20,11 +20,11 @@ function ProjectCard(props) {
             <div>
                 <img className="project-img" src={props.src} alt="picture" />
             </div>
-            <div className="project-title">
+            <div className="project-title centre">
                 {props.tittle}
             </div>
-            <div className="project-details">{props.details}</div>
-            <div><a href={props.link} className="project-link" target="_blank">GitHub Link</a></div>
+            <div className="project-details centre">{props.details}</div>
+            <div className="centre"><a href={props.link} className="project-link " target="_blank">GitHub Link</a></div>
         </div>
     );
 }
@@ -45,8 +45,8 @@ export default function Project() {
                 </div>
             </header>
             <section className="project-main">
-                <h1 className="head-h2">My Latest Featured Projects</h1>
-                <p className="a-para">You can also go to My <a href="https://github.com/prabhat-021" className="a-link">GitHub</a> to check my Progress</p>
+                <h1 className="head-h2 centre">My Latest Featured Projects</h1>
+                <p className="a-para centre">You can also go to My <a href="https://github.com/prabhat-021" className="a-link">GitHub</a> to check my Progress</p>
                 <section className="project-card-1">
                     {ProjectData.map(ncard)}
                 </section>

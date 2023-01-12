@@ -10,62 +10,70 @@ import img9 from "./images/regform.jpg";
 import img10 from "./images/CV.png";
 import img11 from "./images/ecommerce.png";
 import img12 from "./images/TaskManager.png";
+import img13 from "./images/noteMaking.png";
 
 const ProjectData = [
-    // {
-    //     id: 12,
-    //     imgsrc: img12,
-    //     title: "Task Manager Node",
-    //     details: "NODE/EXPRESS,MongoDB,HTML,CSS,JAVASCRIPT ",
-    //     link: "https://github.com/prabhat-021/Task-Manager-Node-Practice-1"
-    // },
+    {
+        id: 13,
+        imgsrc: img13,
+        title: "Note-Making App",
+        details: "NODE/EXPRESS, MongoDB, REACT, REDUX ",
+        link: "https://notezipper021.cyclic.app/"
+    },
+    {
+        id: 12,
+        imgsrc: img12,
+        title: "Task Manager Node",
+        details: "NODE/EXPRESS, MongoDB, JAVASCRIPT ",
+        link: "https://github.com/prabhat-021/Task-Manager-Node-Practice-1"
+    },
     {
         id: 11,
         imgsrc: img11,
         title: "React Ecommerce",
-        details: "REACT JS,Auth0,HTML,CSS,JAVASCRIPT",
+        details: "REACT JS,Auth0, JAVASCRIPT",
         link: "https://react-ecommerce-021.netlify.app/"
     },
     {
         id: 1,
         imgsrc: img1,
         title: "CurrencyRates",
-        details: "HTML,CSS,JAVASCRIPT,REACT",
+        details: "JAVASCRIPT,REACT",
         link: "https://github.com/prabhat-021/CurrencyRates"
     },
     {
         id: 2,
         imgsrc: img2,
         title: "MemeGenerator",
-        details: "HTML,CSS,JAVASCRIPT,REACT",
+        details: "JAVASCRIPT,REACT",
         link: "https://github.com/prabhat-021/MemeGenerator"
     },
     {
         id: 3,
         imgsrc: img3,
         title: "TinDog ",
-        details: "HTML,CSS,BOOTSTRAP,JAVASCRIPT",
+        details: "HTML,CSS,BOOTSTRAP, JAVASCRIPT",
         link: "https://prabhat-021.github.io/TinDog/"
     },
     {
         id: 4,
         imgsrc: img4,
         title: "Keeper App",
-        details: "HTML,CSS,JAVASCRIPT,REACT",
+        details: "JAVASCRIPT,REACT",
         link: "https://prabhat-021.github.io/KeeperApp/"
     },
     {
         id: 5,
         imgsrc: img5,
         title: "Todo-List",
-        details: "HTML,CSS,JAVASCRIPT,REACT",
+        details: "JAVASCRIPT,REACT",
         link: "https://prabhat-021.github.io/todolist/"
-    }, 
+    },
     {
         id: 6,
         imgsrc: img6,
         title: "TEDxKIET Clone",
-        details: "HTML,CSS,BOOTSTRAP,JAVASCRIPT",
+        details: "HTML,CSS,BOOTSTRAP, JAVASCRIPT",
         link: "https://prabhat-021.github.io/tedxkiet/"
     },
     {

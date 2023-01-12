@@ -45,7 +45,7 @@ export default function Testimonial() {
                 <p className="head-p1">It is very easy to start smoking but it is an uphill task to quit it. Ask any chain smoker or even a person.</p>
             </div>
             <Swiper
-                navigation={true}
+                // navigation={true}
                 slidesPerView={windowSize.innerWidth >=1020 ? 2 :1}
                 spaceBetween={30}
                 autoplay={{

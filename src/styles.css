@@ -151,7 +151,7 @@ margin-right: auto;
   }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 620px) {
   .head-h2 {
     line-height: 2.3rem;
   }
@@ -165,7 +165,7 @@ margin-right: auto;
     text-align: center;
     justify-content: center;
     padding: 0;
-    height: 400px;
+    width: fit-content;
     /* margin: 50%; */
   }
 
@@ -579,8 +579,8 @@ margin-right: auto;
     display: block;
   }
 
-  .foot-social {
-    margin-left: 0;
+  .foot-social, .foot-link, .foot-services, .foot-question {
+    margin-left: 10px;
   }
 
   .footer {
@@ -731,14 +731,14 @@ margin-right: auto;
   }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 620px) {
   .swip-slide {
     display: block;
   }
 
   .slide-img {
     width: 100%;
-    height: auto;
+    height: 100vh;
     /* height: 30vh; */
   }
 }
@@ -746,9 +746,11 @@ margin-right: auto;
 /* Testimonial Section css ends */
 
 /* Project-Section css start */
+.centre{
+  text-align: center;
+}
 .project-main {
   background-color: ghostwhite;
-  text-align: center;
   padding: 20px 10px 20px 10px;
 }
 
@@ -799,6 +801,8 @@ margin-right: auto;
   font-size: 15px;
   font-weight: 250;
   letter-spacing: 2px;
+  word-wrap: normal;
+  /* width: fit-content; */
 }
 
 .project-link {
@@ -823,6 +827,12 @@ margin-right: auto;
 
   .project-card {
     margin-bottom: 10px;
+  }
+  .project-img {
+    width: 315px;
+    height: 40vh;
+    border-radius: 5%;
+    /* margin: 3%; */
   }
 }
 
