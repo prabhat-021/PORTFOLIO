@@ -6,13 +6,13 @@ import "../pages/styles.css";
 import saket from "../images/testimonialImage/saket.jpeg";
 import ashwin from "../images/testimonialImage/ashwin.jpeg";
 import aryan from "../images/testimonialImage/aryan.jpeg";
-import avneesh from "../images/testimonialImage/avneesh.jpeg";
+// import avneesh from "../images/testimonialImage/avneesh.jpeg";
 import khushi from "../images/testimonialImage/khushi.jpeg";
-import sambhrant from "../images/testimonialImage/sambhrant.jpeg";
+// import sambhrant from "../images/testimonialImage/sambhrant.jpeg";
 import ayush from "../images/testimonialImage/ayush.jpeg";
 import SwiperCore, { Autoplay } from 'swiper';
-import Archit from "../images/testimonialImage/Archit.jpeg";
-import Tushar from "../images/testimonialImage/Tushar.jpeg";
+// import Archit from "../images/testimonialImage/Archit.jpeg";
+// import Tushar from "../images/testimonialImage/Tushar.jpeg";
 
 
 SwiperCore.use([Autoplay]);
@@ -83,7 +83,7 @@ export default function Testimonial() {
                 </div></SwiperSlide>
                 <SwiperSlide> <div className="swip-slide">
                     <div className="slide-img">
-                        <img src={aryan} alt="aryan" />
+                        <img src={aryan} alt="aryan" className="slide-img"/>
                     </div>
                     <div className="slide-content">
                         <div className="slide-p1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque</div>
@@ -91,7 +91,7 @@ export default function Testimonial() {
                         <div className="slide-h2">MERN Developer</div>
                     </div>
                 </div></SwiperSlide>
-                <SwiperSlide> <div className="swip-slide">
+                {/* <SwiperSlide> <div className="swip-slide">
                     <div className="slide-img">
                         <img src={avneesh} alt="avneesh" />
                     </div>
@@ -100,7 +100,7 @@ export default function Testimonial() {
                         <div className="slide-h1 bold">Avaneesh Sir</div>
                         <div className="slide-h2">DSC:-Technical Head</div>
                     </div>
-                </div></SwiperSlide>
+                </div></SwiperSlide> */}
                 <SwiperSlide> <div className="swip-slide">
                     <div className="slide-img">
                         <img src={khushi} alt="khushi" />
@@ -121,7 +121,7 @@ export default function Testimonial() {
                         <div className="slide-h2">Content Writer</div>
                     </div>
                 </div></SwiperSlide>
-                <SwiperSlide> <div className="swip-slide">
+                {/* <SwiperSlide> <div className="swip-slide">
                     <div className="slide-img">
                         <img src={Archit} alt="archit" />
                     </div>
@@ -130,8 +130,8 @@ export default function Testimonial() {
                         <div className="slide-h1 bold">Archit Sir</div>
                         <div className="slide-h2">MyCIN:-Head</div>
                     </div>
-                </div></SwiperSlide>
-                <SwiperSlide> <div className="swip-slide">
+                </div></SwiperSlide> */}
+                {/* <SwiperSlide> <div className="swip-slide">
                     <div className="slide-img">
                         <img src={Tushar} alt="tushar" />
                     </div>
@@ -140,8 +140,8 @@ export default function Testimonial() {
                         <div className="slide-h1 bold">Tushar Sir</div>
                         <div className="slide-h2">MyCIN:-Technical Head</div>
                     </div>
-                </div></SwiperSlide>
-                <SwiperSlide> <div className="swip-slide">
+                </div></SwiperSlide> */}
+                {/* <SwiperSlide> <div className="swip-slide">
                     <div className="slide-img">
                         <img src={sambhrant} alt="sambhrant" />
                     </div>
@@ -150,7 +150,7 @@ export default function Testimonial() {
                         <div className="slide-h1 bold">Sambhrant Tiwari</div>
                         <div className="slide-h2">Cotlin Developer</div>
                     </div>
-                </div></SwiperSlide>
+                </div></SwiperSlide> */}
             </Swiper>
         </section>
     );
