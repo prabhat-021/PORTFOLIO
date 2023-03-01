@@ -1,4 +1,4 @@
-import img2 from "./images/mid-img.jpg";
+import img2 from "../images/mid-img.jpg";
 import { Link } from "react-router-dom";
 
 export default function Mid1(){

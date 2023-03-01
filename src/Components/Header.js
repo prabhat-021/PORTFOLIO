@@ -1,4 +1,4 @@
-import img1 from "./images/prabhat1.jpg"
+import img1 from "../images/prabhat1.jpg"
 import { Link } from "react-router-dom";
 export default function Header() {
     return (

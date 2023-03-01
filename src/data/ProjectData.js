@@ -1,16 +1,16 @@
-import img1 from "./images/converter.png";
-import img2 from "./images/meme.png";
-import img3 from "./images/tindog.png";
-import img4 from "./images/keeper.png";
-import img5 from "./images/todolist.png";
-import img6 from "./images/tedxkiet.png";
-import img7 from "./images/drumkit.png";
-import img8 from "./images/dicegame.png";
-import img9 from "./images/regform.jpg";
-import img10 from "./images/CV.png";
-import img11 from "./images/ecommerce.png";
-import img12 from "./images/TaskManager.png";
-import img13 from "./images/noteMaking.png";
+import img1 from "../images/converter.png";
+import img2 from "../images/meme.png";
+import img3 from "../images/tindog.png";
+import img4 from "../images/keeper.png";
+import img5 from "../images/todolist.png";
+import img6 from "../images/tedxkiet.png";
+import img7 from "../images/drumkit.png";
+import img8 from "../images/dicegame.png";
+import img9 from "../images/regform.jpg";
+import img10 from "../images/CV.png";
+import img11 from "../images/ecommerce.png";
+import img12 from "../images/TaskManager.png";
+import img13 from "../images/noteMaking.png";
 
 const ProjectData = [
     {
@@ -18,7 +18,7 @@ const ProjectData = [
         imgsrc: img13,
         title: "Note-Making App",
         details: "NODE/EXPRESS, MongoDB, REACT, REDUX ",
-        link: "https://notezipper021.cyclic.app/"
+        link: "https://notezipper-021.cyclic.app/"
     },
     {
         id: 12,

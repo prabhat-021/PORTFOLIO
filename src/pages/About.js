@@ -1,8 +1,8 @@
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
 import { Link } from "react-router-dom";
-import Mid1 from "./Mid1";
-import Testimonial from "./Testimonial";
+import Mid1 from "../Components/Mid1";
+import Testimonial from "../Components/Testimonial";
 export default function About(){
     return (
         <section>

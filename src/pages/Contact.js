@@ -1,8 +1,8 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import Navbar from "./Navbar";
+import Navbar from "../Components/Navbar";
 // import MapContainer from "./Map";
-import Footer from "./Footer";
+import Footer from "../Components/Footer";
 import HomeIcon from '@mui/icons-material/Home';
 import PhoneIcon from '@mui/icons-material/Phone';
 import EmailIcon from '@mui/icons-material/Email';

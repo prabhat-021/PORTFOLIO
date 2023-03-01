@@ -1,7 +1,7 @@
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
 import { Link } from "react-router-dom";
-import ProjectData from "./ProjectData.js";
+import ProjectData from "../data/ProjectData.js";
 
 function ncard(val) {
     return (
