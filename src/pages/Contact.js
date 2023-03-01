@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Navbar from "../Components/Navbar";
-// import MapContainer from "./Map";
 import Footer from "../Components/Footer";
 import HomeIcon from '@mui/icons-material/Home';
 import PhoneIcon from '@mui/icons-material/Phone';
@@ -36,38 +35,29 @@ export default function Contact() {
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            {/* <div className="map">
-               <MapContainer />
-            </div> */}
-            <div className="footer">
-               <div className="contact-detail">
-                  <div className="contact-detail-1">
-                     <div className="contact-icon"><HomeIcon /> Kiet Group Of Institution, Gazaibadh, India</div>
-                     <div className="contact-icon"><PhoneIcon />+91 9084539879</div>
-                     <div className="contact-icon"><EmailIcon />prabhatsahrawat010203@gmail.com</div>
-                  </div>
-                  <div className='contact-form'>
-                     <form ref={form} onSubmit={sendEmail}>
-                        <div className="form-in">
-                           <div className="form-left">
-                              {/* <label>Name</label> */}
-                              <input className="form-text" type="text" placeholder='Enter your Name' name="user_name" />
-                              {/* <label>Email</label> */}
-                              <input className="form-text" type="email" placeholder='Enter Email Address' name="user_email" />
-                              {/* <label>Subject</label> */}
-                              <input className="form-text" type="text" placeholder='Enter Subject' name="user_subject"></input>
-                              {/* <label>Message</label> */}
-                           </div>
-                           <div className="form-right">
-                              <textarea className="form-message" placeholder='Enter your Message' name="message" />
-                              <input type="submit" value="Send Message" className='head-btn msg-btn' onClick={Clicked} />
-                           </div>
-                        </div>
-                     </form>
-                  </div>
+            <div className="contact-detail">
+               <div className="contact-detail-1">
+                  <div className="contact-icon"><HomeIcon /> Kiet Group Of Institution, Gazaibadh, India</div>
+                  <div className="contact-icon"><PhoneIcon />+91 9084539879</div>
+                  <div className="contact-icon"><EmailIcon />prabhatsahrawat010203@gmail.com</div>
                </div>
-               <Footer />
+               <div className='contact-form'>
+                  <form ref={form} onSubmit={sendEmail}>
+                     <div className="form-in">
+                        <div className="form-left">
+                           <input className="form-text" type="text" placeholder='Enter your Name' name="user_name" />
+                           <input className="form-text" type="email" placeholder='Enter Email Address' name="user_email" />
+                           <input className="form-text" type="text" placeholder='Enter Subject' name="user_subject"></input>
+                        </div>
+                        <div className="form-right">
+                           <textarea className="form-message" placeholder='Enter your Message' name="message" />
+                           <input type="submit" value="Send Message" className='head-btn msg-btn' onClick={Clicked} />
+                        </div>
+                     </div>
+                  </form>
+               </div>
             </div>
+            <Footer />
          </div>
       </section>
    );

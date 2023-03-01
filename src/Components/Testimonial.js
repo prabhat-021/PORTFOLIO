@@ -3,16 +3,16 @@ import "swiper/css";
 // import "swiper/css/pagination";
 import "../pages/styles.css";
 // import { Pagination } from "swiper";
-import saket from "../images/saket.jpeg";
-import ashwin from "../images/ashwin.jpeg";
-import aryan from "../images/aryan.jpeg";
-import avneesh from "../images/avneesh.jpeg";
-import khushi from "../images/khushi.jpeg";
-import sambhrant from "../images/sambhrant.jpeg";
-import ayush from "../images/ayush.jpeg";
+import saket from "../images/testimonialImage/saket.jpeg";
+import ashwin from "../images/testimonialImage/ashwin.jpeg";
+import aryan from "../images/testimonialImage/aryan.jpeg";
+import avneesh from "../images/testimonialImage/avneesh.jpeg";
+import khushi from "../images/testimonialImage/khushi.jpeg";
+import sambhrant from "../images/testimonialImage/sambhrant.jpeg";
+import ayush from "../images/testimonialImage/ayush.jpeg";
 import SwiperCore, { Autoplay } from 'swiper';
-import Archit from "../images/Archit.jpeg";
-import Tushar from "../images/Tushar.jpeg";
+import Archit from "../images/testimonialImage/Archit.jpeg";
+import Tushar from "../images/testimonialImage/Tushar.jpeg";
 
 
 SwiperCore.use([Autoplay]);
