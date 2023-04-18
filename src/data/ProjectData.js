@@ -11,8 +11,16 @@ import img10 from "../images/projectImage/CV.png";
 import img11 from "../images/projectImage/ecommerce.png";
 import img12 from "../images/projectImage/TaskManager.png";
 import img13 from "../images/projectImage/noteMaking.png";
+import img14 from "../images/projectImage/memories.png";
 
 const ProjectData = [
+    {
+        id: 14,
+        imgsrc: img14,
+        title: "Memories-Sharing App",
+        details: "NODE/EXPRESS, MongoDB, REACT, REDUX ,GoogleAuthentication",
+        link: "https://memories-share-021.cyclic.app/"
+    },
     {
         id: 13,
         imgsrc: img13,

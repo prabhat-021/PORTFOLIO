@@ -49,7 +49,7 @@ export default function Project() {
                 <p className="a-para centre">You can also go to My <a href="https://github.com/prabhat-021" className="a-link">GitHub</a> to check my Progress</p>
                 <section className="project-card-1">
                     {ProjectData.map(ncard)}
-                </section>
+                </section>  
             </section>
             <Footer />
         </section>
