@@ -1,5 +1,5 @@
 import img1 from "../images/prabhat1.jpg"
-import pdf from "../data/Prabhat_sehrawat_CV.pdf";
+import pdf from "../data/Rezume.pdf";
 
 export default function Header() {
     return (
