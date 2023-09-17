@@ -4,7 +4,7 @@ import Mid1 from "../Components/Mid1.js";
 import Mid2 from "../Components/Mid2.js";
 import Count from "../Components/Count.js";
 import Footer from "../Components/Footer";
-import Testimonial from "../Components/Testimonial";
+// import Testimonial from "../Components/Testimonial";
 export default function Home() {
     return (
         <section>
@@ -13,7 +13,7 @@ export default function Home() {
             <Mid1 />
             <Mid2 />
             <Count />
-            <Testimonial />
+            {/* <Testimonial /> */}
             <Footer />
         </section>
     );

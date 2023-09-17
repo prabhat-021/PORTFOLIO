@@ -2,7 +2,7 @@ import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import { Link } from "react-router-dom";
 import Mid1 from "../Components/Mid1";
-import Testimonial from "../Components/Testimonial";
+// import Testimonial from "../Components/Testimonial";
 export default function About() {
     return (
         <section>
@@ -29,7 +29,7 @@ export default function About() {
                     <li className="about-ls">➣<span className="bold">City:-</span>Meerut</li>
                 </ul>
             </div>
-            <Testimonial />
+            {/* <Testimonial /> */}
             <Footer />
         </section>
     );
