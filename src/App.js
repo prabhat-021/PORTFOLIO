@@ -3,7 +3,6 @@ import Home from "./pages/Home.js";
 import About from "./pages/About.js";
 import Project from "./pages/Project.js";
 import Contact from "./pages/Contact.js";
-import Navbar from "./Components/Navbar.js";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 export default function App() {
   return (

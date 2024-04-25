@@ -37,7 +37,7 @@ export default function Mid2() {
                     <div className="container">
                         <div className='mid2-icon'><TerminalIcon id="icon"/></div>
                         <div className='mid2-h2'>Coding</div>
-                        <div className='mid2-p1'>C++, java , C Language </div>
+                        <div className='mid2-p1'>Java , C Language </div>
                     </div>
                     <div className="container">
                         <div className='mid2-icon'><TravelExploreIcon id="icon"/></div>
