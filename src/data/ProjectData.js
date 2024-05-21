@@ -12,8 +12,24 @@ import img11 from "../images/projectImage/ecommerce.png";
 import img12 from "../images/projectImage/TaskManager.png";
 import img13 from "../images/projectImage/noteMaking.png";
 import img14 from "../images/projectImage/memories.png";
+import img15 from "../images/projectImage/discord.png";
+import img16 from "../images/projectImage/college.png";
 
 const ProjectData = [
+    {
+        id: 16,
+        imgsrc: img16,
+        title: "College Search",
+        details: "NODE/EXPRESS, MongoDB, REACT, REDUX ,Redis",
+        link: "https://github.com/prabhat-021/Progress.git"
+    },
+    {
+        id: 15,
+        imgsrc: img15,
+        title: "ChatApp",
+        details: "NODE/EXPRESS, MongoDB, Nextjs, REACT, REDUX",
+        link: "https://github.com/prabhat-021/Socket-Mysql-Learn.git"
+    },
     {
         id: 14,
         imgsrc: img14,
