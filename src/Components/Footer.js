@@ -43,8 +43,8 @@ export default function Footer() {
                 <div className="foot-question">
                     <h1 className="foot-list-h1">Have a Question ?</h1>
                     <div className="question"><LocationOnIcon id="question-icon" /> Kiet Group Of Institution,Gaziabadh,India</div>
-                    <div className="question"><LocalPhoneIcon id="question-icon" /> +91 9084539879</div>
-                    <div className="question"><EmailIcon id="question-icon" /> prabhatsahrawat010203 @gmail.com</div>
+                    <div className="question"><LocalPhoneIcon id="question-icon" /> +91 8445580308</div>
+                    <div className="question"><EmailIcon id="question-icon" /> theprabhatsehrawat@gmail.com</div>
                 </div>
             </div>
         </footer>

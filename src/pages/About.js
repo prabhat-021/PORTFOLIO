@@ -24,7 +24,7 @@ export default function About() {
                     <li className="about-ls">➣<span className="bold">Birthday:-</span>2 June 2003</li>
                     <li className="about-ls">➣<span className="bold">Website:-</span>https://prabhat-021portfolio.netlify.app/</li>
                     <li className="about-ls">➣<span className="bold">Phone:-</span>+91 8445580308</li>
-                    <li className="about-ls">➣<span className="bold">Email:-</span>prabhatsahrawat010203@gmail.com</li>
+                    <li className="about-ls">➣<span className="bold">Email:-</span>theprabhatsehrawat@gmail.com</li>
                     <li className="about-ls">➣<span className="bold">City:-</span>Meerut</li>
                 </ul>
             </div>
