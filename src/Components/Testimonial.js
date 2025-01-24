@@ -83,7 +83,7 @@ export default function Testimonial() {
                 </div></SwiperSlide>
                 <SwiperSlide> <div className="swip-slide">
                     <div className="slide-img">
-                        <img src={aryan} alt="aryan" className="slide-img"/>
+                        <img src={aryan} alt="aryan" className="slide-img" />
                     </div>
                     <div className="slide-content">
                         <div className="slide-p1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque</div>
