@@ -8,8 +8,8 @@ import img7 from "../images/projectImage/drumkit.png";
 import img8 from "../images/projectImage/dicegame.png";
 import img9 from "../images/projectImage/regform.jpg";
 import img10 from "../images/projectImage/CV.png";
-import img11 from "../images/projectImage/ecommerce.png";
-import img12 from "../images/projectImage/TaskManager.png";
+import img12 from "../images/projectImage/ecommerce.png";
+import img11 from "../images/projectImage/TaskManager.png";
 import img13 from "../images/projectImage/noteMaking.png";
 import img14 from "../images/projectImage/memories.png";
 import img15 from "../images/projectImage/discord.png";
@@ -19,8 +19,8 @@ const ProjectData = [
     {
         id: 16,
         imgsrc: img16,
-        title: "College Search",
-        details: "NODE/EXPRESS, MongoDB, REACT, REDUX ,Redis",
+        title: "MentorConnect",
+        details: "NODE/EXPRESS, MongoDB, REACT, REDUX ",
         link: "https://github.com/prabhat-021/Progress.git"
     },
     {
@@ -47,16 +47,16 @@ const ProjectData = [
     {
         id: 12,
         imgsrc: img12,
-        title: "Task Manager Node",
-        details: "NODE/EXPRESS, MongoDB, JAVASCRIPT ",
-        link: "https://github.com/prabhat-021/Task-Manager-Node-Practice-1"
+        title: "React Ecommerce",
+        details: "REACT JS,Auth0, JAVASCRIPT",
+        link: "https://react-ecommerce-021.netlify.app/"
     },
     {
         id: 11,
         imgsrc: img11,
-        title: "React Ecommerce",
-        details: "REACT JS,Auth0, JAVASCRIPT",
-        link: "https://react-ecommerce-021.netlify.app/"
+        title: "Task Manager Node",
+        details: "NODE/EXPRESS, MongoDB, JAVASCRIPT ",
+        link: "https://github.com/prabhat-021/Task-Manager-Node-Practice-1"
     },
     {
         id: 1,
