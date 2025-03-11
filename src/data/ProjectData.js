@@ -35,14 +35,7 @@ const ProjectData = [
         imgsrc: img14,
         title: "Memories-Sharing App",
         details: "NODE/EXPRESS, MongoDB, REACT, REDUX ,GoogleAuthentication",
-        link: "https://memories-share-021.cyclic.app/"
-    },
-    {
-        id: 13,
-        imgsrc: img13,
-        title: "Note-Making App",
-        details: "NODE/EXPRESS, MongoDB, REACT, REDUX ",
-        link: "https://notezipper-021.cyclic.app/"
+        link: "https://github.com/prabhat-021/Mern-SheThrive-App"
     },
     {
         id: 12,
@@ -50,6 +43,13 @@ const ProjectData = [
         title: "React Ecommerce",
         details: "REACT JS,Auth0, JAVASCRIPT",
         link: "https://react-ecommerce-021.netlify.app/"
+    },
+    {
+        id: 13,
+        imgsrc: img13,
+        title: "Note-Making App",
+        details: "NODE/EXPRESS, MongoDB, REACT, REDUX ",
+        link: "https://github.com/prabhat-021/Mern-Note-Making-App"
     },
     {
         id: 11,
