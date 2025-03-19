@@ -11,7 +11,7 @@ import img10 from "../images/projectImage/CV.png";
 import img12 from "../images/projectImage/ecommerce.png";
 import img11 from "../images/projectImage/TaskManager.png";
 import img13 from "../images/projectImage/noteMaking.png";
-import img14 from "../images/projectImage/memories.png";
+import img14 from "../images/projectImage/image.png";
 import img15 from "../images/projectImage/discord.png";
 import img16 from "../images/projectImage/college.png";
 

@@ -1,4 +1,4 @@
-import img1 from "../images/prabhat1.jpg"
+import img1 from "../images/prabhat1.png"
 import pdf from "../data/Rezume.pdf";
 
 export default function Header() {

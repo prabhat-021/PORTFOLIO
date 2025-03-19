@@ -1,5 +1,5 @@
 import "../pages/styles.css";
-import img1 from "../images/download.webp";
+import img1 from "../images/projectImage/logo.png";
 import { NavLink } from "react-router-dom";
 import DehazeIcon from '@mui/icons-material/Dehaze';
 import CloseIcon from '@mui/icons-material/Close';
@@ -12,18 +12,10 @@ export default function Navbar() {
         <img src={img1} className="nav-img" alt="navIcon" />
         <ul className={icons ? "nav-item-mobile" : "nav-item "}
           onClick={() => setIcon(false)}>
-          <li className="item">
-            <NavLink className="item" to="/">Home </NavLink>
-          </li>
-          <li className="item">
-            <NavLink className="item" to="/about">About </NavLink>
-          </li>
-          <li className="item">
-            <NavLink className="item" to="/project">Projects </NavLink>
-          </li>
-          <li className="item">
-            <NavLink className="item" to="/contact">Contact</NavLink>
-          </li>
+          <NavLink className="item" to="/">Home </NavLink>
+          <NavLink className="item" to="/about">About </NavLink>
+          <NavLink className="item" to="/project">Projects </NavLink>
+          <NavLink className="item" to="/contact">Contact</NavLink>
         </ul>
         <button className="nav-icon"
           onClick={() => setIcon(!icons)}>
