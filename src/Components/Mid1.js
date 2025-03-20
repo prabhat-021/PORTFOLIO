@@ -17,9 +17,7 @@ export default function Mid1() {
 
     return (
         <section className="mid">
-            <div className="mid-img-1">
-                <img src={img2} alt="mid-section-image" />
-            </div>
+            <img src={img2} alt="mid-section-image" className="mid-img-1" />
             <div className="mid-text head-text">
                 <h6 className="head-h1 mid1-h1">ABOUT ME</h6>
                 <h1 className="head-h2 mid-h2">PERSONAL DETAILS</h1>

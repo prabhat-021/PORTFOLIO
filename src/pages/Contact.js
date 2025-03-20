@@ -38,7 +38,7 @@ export default function Contact() {
             <div className="contact-detail">
                <div className="contact-detail-1">
                   <div className="contact-icon"><HomeIcon /> Kiet Group Of Institution, Gazaibadh, India</div>
-                  <div className="contact-icon"><PhoneIcon />+91 9084539879</div>
+                  <div className="contact-icon"><PhoneIcon />+91 8445580308</div>
                   <div className="contact-icon"><EmailIcon />prabhatsahrawat010203@gmail.com</div>
                </div>
                <div className='contact-form'>

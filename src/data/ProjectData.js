@@ -51,82 +51,82 @@ const ProjectData = [
         details: "NODE/EXPRESS, MongoDB, REACT, REDUX ",
         link: "https://github.com/prabhat-021/Mern-Note-Making-App"
     },
-    {
-        id: 11,
-        imgsrc: img11,
-        title: "Task Manager Node",
-        details: "NODE/EXPRESS, MongoDB, JAVASCRIPT ",
-        link: "https://github.com/prabhat-021/Task-Manager-Node-Practice-1"
-    },
-    {
-        id: 1,
-        imgsrc: img1,
-        title: "CurrencyRates",
-        details: "JAVASCRIPT,REACT",
-        link: "https://github.com/prabhat-021/CurrencyRates"
-    },
-    {
-        id: 2,
-        imgsrc: img2,
-        title: "MemeGenerator",
-        details: "JAVASCRIPT,REACT",
-        link: "https://github.com/prabhat-021/MemeGenerator"
-    },
-    {
-        id: 3,
-        imgsrc: img3,
-        title: "TinDog ",
-        details: "HTML,CSS,BOOTSTRAP, JAVASCRIPT",
-        link: "https://prabhat-021.github.io/TinDog/"
-    },
-    {
-        id: 4,
-        imgsrc: img4,
-        title: "Keeper App",
-        details: "JAVASCRIPT,REACT",
-        link: "https://prabhat-021.github.io/KeeperApp/"
-    },
-    {
-        id: 5,
-        imgsrc: img5,
-        title: "Todo-List",
-        details: "JAVASCRIPT,REACT",
-        link: "https://prabhat-021.github.io/todolist/"
-    },
-    {
-        id: 6,
-        imgsrc: img6,
-        title: "TEDxKIET Clone",
-        details: "HTML,CSS,BOOTSTRAP, JAVASCRIPT",
-        link: "https://prabhat-021.github.io/tedxkiet/"
-    },
-    {
-        id: 7,
-        imgsrc: img7,
-        title: "Drum Kit",
-        details: "HTML,CSS,JAVASCRIPT",
-        link: "https://prabhat-021.github.io/drum-kit/"
-    },
-    {
-        id: 8,
-        imgsrc: img8,
-        title: "Dice Game",
-        details: "HTML,CSS,JAVASCRIPT",
-        link: "https://prabhat-021.github.io/dice-game/"
-    },
-    {
-        id: 9,
-        imgsrc: img9,
-        title: "Registration from",
-        details: "HTML, CSS , JAVASCRIPT",
-        link: "https://prabhat-021.github.io/registration-form/"
-    },
-    {
-        id: 10,
-        imgsrc: img10,
-        title: "CV(My first HTML page)",
-        details: "HTML",
-        link: "https://prabhat-021.github.io/cv/"
-    }
+    // {
+    //     id: 11,
+    //     imgsrc: img11,
+    //     title: "Task Manager Node",
+    //     details: "NODE/EXPRESS, MongoDB, JAVASCRIPT ",
+    //     link: "https://github.com/prabhat-021/Task-Manager-Node-Practice-1"
+    // },
+    // {
+    //     id: 1,
+    //     imgsrc: img1,
+    //     title: "CurrencyRates",
+    //     details: "JAVASCRIPT,REACT",
+    //     link: "https://github.com/prabhat-021/CurrencyRates"
+    // },
+    // {
+    //     id: 2,
+    //     imgsrc: img2,
+    //     title: "MemeGenerator",
+    //     details: "JAVASCRIPT,REACT",
+    //     link: "https://github.com/prabhat-021/MemeGenerator"
+    // },
+    // {
+    //     id: 3,
+    //     imgsrc: img3,
+    //     title: "TinDog ",
+    //     details: "HTML,CSS,BOOTSTRAP, JAVASCRIPT",
+    //     link: "https://prabhat-021.github.io/TinDog/"
+    // },
+    // {
+    //     id: 4,
+    //     imgsrc: img4,
+    //     title: "Keeper App",
+    //     details: "JAVASCRIPT,REACT",
+    //     link: "https://prabhat-021.github.io/KeeperApp/"
+    // },
+    // {
+    //     id: 5,
+    //     imgsrc: img5,
+    //     title: "Todo-List",
+    //     details: "JAVASCRIPT,REACT",
+    //     link: "https://prabhat-021.github.io/todolist/"
+    // },
+    // {
+    //     id: 6,
+    //     imgsrc: img6,
+    //     title: "TEDxKIET Clone",
+    //     details: "HTML,CSS,BOOTSTRAP, JAVASCRIPT",
+    //     link: "https://prabhat-021.github.io/tedxkiet/"
+    // },
+    // {
+    //     id: 7,
+    //     imgsrc: img7,
+    //     title: "Drum Kit",
+    //     details: "HTML,CSS,JAVASCRIPT",
+    //     link: "https://prabhat-021.github.io/drum-kit/"
+    // },
+    // {
+    //     id: 8,
+    //     imgsrc: img8,
+    //     title: "Dice Game",
+    //     details: "HTML,CSS,JAVASCRIPT",
+    //     link: "https://prabhat-021.github.io/dice-game/"
+    // },
+    // {
+    //     id: 9,
+    //     imgsrc: img9,
+    //     title: "Registration from",
+    //     details: "HTML, CSS , JAVASCRIPT",
+    //     link: "https://prabhat-021.github.io/registration-form/"
+    // },
+    // {
+    //     id: 10,
+    //     imgsrc: img10,
+    //     title: "CV(My first HTML page)",
+    //     details: "HTML",
+    //     link: "https://prabhat-021.github.io/cv/"
+    // }
 ]
 export default ProjectData;

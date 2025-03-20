@@ -9,7 +9,6 @@ export default function App() {
 
     <BrowserRouter>
       <Routes>
-        {/* <Route path="/" element={<App />} /> */}
         <Route path="/" element={<Home />} exact />
         <Route path="/about" element={<About />} />
         <Route path="/project" element={<Project />} />
