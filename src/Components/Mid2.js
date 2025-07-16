@@ -4,6 +4,7 @@ import StorageIcon from '@mui/icons-material/Storage';
 import TravelExploreIcon from '@mui/icons-material/TravelExplore';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import TerminalIcon from '@mui/icons-material/Terminal';
+import { Link } from 'react-router-dom';
 
 export default function Mid2() {
     const domains = [
@@ -123,22 +124,22 @@ export default function Mid2() {
                             Interested in collaboration or want to learn more about my work?
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                            <a 
-                                href="/contact" 
+                            <Link 
+                                to="/contact" 
                                 className="group inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-white bg-gradient-to-r from-primary to-secondary rounded-xl hover:from-secondary hover:to-primary transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                             >
                                 <span className="flex items-center gap-2">
                                     💬 Let's Connect
                                 </span>
-                            </a>
-                            <a 
-                                href="/project" 
+                            </Link>
+                            <Link
+                                to="/project" 
                                 className="group inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-primary bg-white border-2 border-primary rounded-xl hover:bg-primary hover:text-white transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                             >
                                 <span className="flex items-center gap-2">
                                     🚀 View Projects
                                 </span>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

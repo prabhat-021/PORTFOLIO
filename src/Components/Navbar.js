@@ -1,5 +1,5 @@
 import img1 from "../images/projectImage/logo.png";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import DehazeIcon from '@mui/icons-material/Dehaze';
 import CloseIcon from '@mui/icons-material/Close';
 import HomeIcon from '@mui/icons-material/Home';
@@ -15,7 +15,9 @@ import React, { useState, useEffect } from "react";
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [contact, setContact] = useState(false);
 
+  const location = useLocation();
   // Handle scroll effect
   useEffect(() => {
     const handleScroll = () => {
@@ -26,6 +28,12 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  useEffect(() => {
+    if (location.pathname === "/contact") {
+      setContact(true);
+    }
+  }, [location]);
+
   const navItems = [
     { name: 'Home', path: '/', icon: HomeIcon },
     { name: 'About', path: '/about', icon: PersonIcon },
@@ -34,21 +42,20 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      isScrolled 
-        ? 'bg-white/95 backdrop-blur-sm shadow-md border-b border-gray-200' 
-        : 'bg-white/80 backdrop-blur-sm'
-    }`}>
+    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
+      ? 'bg-white/95 backdrop-blur-sm shadow-md border-b border-gray-200'
+      : 'bg-white/80 backdrop-blur-sm'
+      }`}>
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          
+
           {/* Logo Section */}
           <div className="flex items-center space-x-3">
             <div className="relative">
-              <img 
-                src={img1} 
-                className="w-10 h-10 rounded-lg object-cover border border-gray-200" 
-                alt="Prabhat Sehrawat" 
+              <img
+                src={img1}
+                className="w-10 h-10 rounded-lg object-cover border border-gray-200"
+                alt="Prabhat Sehrawat"
               />
             </div>
             <div className="hidden sm:block">
@@ -70,8 +77,8 @@ export default function Navbar() {
                   end={item.path === '/'}
                   className={({ isActive }) => `
                     group relative px-5 py-2.5 rounded-lg font-medium transition-all duration-200 
-                    ${isActive 
-                      ? 'text-primary bg-primary/10 border border-primary/20' 
+                    ${isActive
+                      ? 'text-primary bg-primary/10 border border-primary/20'
                       : 'text-gray-700 hover:text-primary hover:bg-gray-50'
                     }
                   `}
@@ -87,17 +94,17 @@ export default function Navbar() {
 
           {/* CTA Button */}
           <div className="hidden md:flex items-center space-x-4">
-            <a 
-              href="/contact" 
+            <NavLink
+              to="/contact"
               className="flex items-center gap-2 px-5 py-2.5 bg-primary text-white rounded-lg font-medium hover:bg-primary/90 transition-all duration-200"
             >
               <EmailIcon className="text-base" />
               Contact Me
-            </a>
+            </NavLink>
           </div>
 
           {/* Mobile Menu Button */}
-          <button 
+          <button
             className="md:hidden relative p-2 text-gray-700 hover:text-primary transition-colors duration-200"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"
@@ -113,13 +120,12 @@ export default function Navbar() {
         </div>
 
         {/* Mobile Menu */}
-        <div className={`md:hidden absolute top-full left-0 right-0 transition-all duration-300 ${
-          isMenuOpen 
-            ? 'opacity-100 translate-y-0' 
-            : 'opacity-0 -translate-y-4 pointer-events-none'
-        }`}>
+        <div className={`md:hidden absolute top-full left-0 right-0 transition-all duration-300 ${isMenuOpen
+          ? 'opacity-100 translate-y-0'
+          : 'opacity-0 -translate-y-4 pointer-events-none'
+          }`}>
           <div className="bg-white border border-gray-200 shadow-lg rounded-lg mx-4 mt-2 p-4">
-            
+
             {/* Mobile Navigation Items */}
             <div className="space-y-2">
               {navItems.map((item, index) => {
@@ -132,8 +138,8 @@ export default function Navbar() {
                     onClick={() => setIsMenuOpen(false)}
                     className={({ isActive }) => `
                       group flex items-center gap-3 px-4 py-3 rounded-lg font-medium transition-all duration-200
-                      ${isActive 
-                        ? 'text-primary bg-primary/10 border border-primary/20' 
+                      ${isActive
+                        ? 'text-primary bg-primary/10 border border-primary/20'
                         : 'text-gray-700 hover:text-primary hover:bg-gray-50'
                       }
                     `}
@@ -144,41 +150,41 @@ export default function Navbar() {
                 );
               })}
             </div>
-            
+
             {/* Mobile CTA */}
-            <div className="mt-4 pt-4 border-t border-gray-200">
-              <a 
-                href="/contact" 
+            {!contact && <div className="mt-4 pt-4 border-t border-gray-200">
+              <NavLink
+                to="/contact"
                 className="flex items-center justify-center gap-2 w-full px-4 py-3 bg-primary text-white rounded-lg font-medium hover:bg-primary/90 transition-all duration-200"
                 onClick={() => setIsMenuOpen(false)}
               >
                 <EmailIcon className="text-base" />
                 Contact Me
-              </a>
-            </div>
-            
+              </NavLink>
+            </div>}
+
             {/* Social Links */}
             <div className="mt-4 flex justify-center space-x-3">
-              <a 
-                href="https://github.com/prabhat-021" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+              <a
+                href="https://github.com/prabhat-021"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-9 h-9 bg-gray-100 rounded-lg flex items-center justify-center text-gray-600 hover:text-gray-800 hover:bg-gray-200 transition-all duration-200"
               >
                 <GitHubIcon className="text-lg" />
               </a>
-              <a 
-                href="https://www.linkedin.com/in/prabhatsahrawat/" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+              <a
+                href="https://www.linkedin.com/in/prabhatsahrawat/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-9 h-9 bg-gray-100 rounded-lg flex items-center justify-center text-gray-600 hover:text-blue-600 hover:bg-blue-50 transition-all duration-200"
               >
                 <LinkedInIcon className="text-lg" />
               </a>
-              <a 
-                href="https://twitter.com/prabhat__021" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+              <a
+                href="https://twitter.com/prabhat__021"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-9 h-9 bg-gray-100 rounded-lg flex items-center justify-center text-gray-600 hover:text-blue-400 hover:bg-blue-50 transition-all duration-200"
               >
                 <TwitterIcon className="text-lg" />

@@ -65,7 +65,7 @@ export default function Contact() {
 
                   {/* Left Side: Contact Info */}
                   <div className="lg:col-span-2">
-                     <div className="bg-white p-8 rounded-2xl shadow-md border border-gray-100 h-full">
+                     <div className="bg-white sm:p-4 md:p-8 rounded-2xl shadow-md border border-gray-100 h-full">
                         <h2 className="text-2xl font-bold text-dark mb-6">Contact Information</h2>
                         <div className="space-y-6">
                            {contactDetails.map((detail, index) => (
