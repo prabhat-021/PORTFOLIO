@@ -42,7 +42,7 @@ export default function Mid1() {
                         </div>
                         
                         <div className="absolute -bottom-4 -left-4 bg-white rounded-2xl shadow-lg p-4 border-l-4 border-secondary animate-pulse">
-                            <div className="text-2xl font-bold text-secondary">2+</div>
+                            <div className="text-2xl font-bold text-secondary">1+</div>
                             <div className="text-sm text-gray-600">Years Experience</div>
                         </div>
                     </div>
