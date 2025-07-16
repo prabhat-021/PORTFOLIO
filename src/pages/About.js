@@ -13,6 +13,20 @@ import SchoolIcon from '@mui/icons-material/School';
 // import Testimonial from "../Components/Testimonial";
 
 export default function About() {
+    const calculateAge = (birthDate) => {
+        const today = new Date();
+        const birthDateObj = new Date(birthDate);
+        let age = today.getFullYear() - birthDateObj.getFullYear();
+        const monthDifference = today.getMonth() - birthDateObj.getMonth();
+        if (monthDifference < 0 || (monthDifference === 0 && today.getDate() < birthDateObj.getDate())) {
+            age--;
+        }
+        return age;
+    };
+
+    const birthDate = "2003-06-02";
+    const age = calculateAge(birthDate);
+
     return (
         <section className="min-h-screen bg-gradient-to-br from-background via-white to-blue-50 relative overflow-hidden">
             {/* Background decorations */}
@@ -112,7 +126,7 @@ export default function About() {
                                     </div>
                                     <div>
                                         <p className="text-sm text-gray-500 uppercase tracking-wider">Age</p>
-                                        <p className="text-lg font-semibold text-gray-800">21 years</p>
+                                        <p className="text-lg font-semibold text-gray-800">{age} years</p>
                                     </div>
                                 </div>
                             </div>
