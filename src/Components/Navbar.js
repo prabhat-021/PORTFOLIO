@@ -58,6 +58,7 @@ export default function Navbar() {
               <NavLink
                 key={item.name}
                 to={item.path}
+                end={item.path === '/'}
                 className={({ isActive }) => `
                   group relative px-6 py-3 rounded-xl font-medium transition-all duration-300 
                   ${isActive 
@@ -117,6 +118,7 @@ export default function Navbar() {
                 <NavLink
                   key={item.name}
                   to={item.path}
+                  end={item.path === '/'}
                   onClick={() => setIsMenuOpen(false)}
                   className={({ isActive }) => `
                     group flex items-center gap-4 px-4 py-3 rounded-xl font-medium transition-all duration-300
