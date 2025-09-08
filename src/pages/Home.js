@@ -13,9 +13,7 @@ export default function Home() {
             <Navbar />
             
             {/* Hero Section */}
-            <div className="pt-20">
                 <Header />
-            </div>
             
             {/* About Section */}
             <Mid1 />
