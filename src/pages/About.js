@@ -38,7 +38,7 @@ export default function About() {
             </div>
 
             <Navbar />
-            
+
             {/* Enhanced Hero Section */}
             <div className="relative z-10 pt-20 pb-20 px-4">
                 <div className="bg-gradient-to-r from-primary via-secondary to-purple-600 text-center py-24 relative overflow-hidden rounded-3xl mx-4 md:mx-8">
@@ -48,7 +48,7 @@ export default function About() {
                         <div className="absolute -bottom-20 -left-20 w-32 h-32 bg-white/10 rounded-full blur-xl"></div>
                         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-48 h-48 bg-white/5 rounded-full blur-2xl"></div>
                     </div>
-                    
+
                     <div className="relative z-10">
                         <div className="inline-flex items-center justify-center w-16 h-16 bg-white/20 backdrop-blur-lg rounded-full mb-6">
                             <PersonIcon className="text-white text-2xl" />
@@ -59,7 +59,7 @@ export default function About() {
                         <p className="text-white/90 text-xl max-w-2xl mx-auto mb-8 leading-relaxed">
                             Passionate Full Stack Developer crafting digital experiences with cutting-edge technologies
                         </p>
-                        
+
                         <header className="flex justify-center items-center space-x-4 mb-8">
                             <Link className="text-white/80 hover:text-white transition-colors duration-300 flex items-center space-x-2" to="/">
                                 <span>Home</span>
@@ -69,7 +69,7 @@ export default function About() {
                                 <span>About</span>
                             </Link>
                         </header>
-                        
+
                         <div className="w-24 h-1 bg-white/30 mx-auto rounded-full"></div>
                     </div>
                 </div>
@@ -91,15 +91,15 @@ export default function About() {
                                 My Journey
                             </h2>
                         </div>
-                        
+
                         <div className="space-y-8">
-                            <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-6 rounded-2xl border-l-4 border-primary">
+                            <div className="p-6 rounded-2xl border-l-4 border-primary">
                                 <p className="text-gray-700 leading-relaxed">
                                     Demonstrating a comprehensive proficiency in diverse programming languages and frameworks such as <span className="font-semibold text-primary">Java, JavaScript, React.js, Redux, Node.js, and MongoDB</span>, my portfolio underscores a versatile skill set adept at navigating various technology stacks. This breadth of technical acumen not only showcases adaptability but also ensures a robust foundation for addressing multifaceted project requirements effectively.
                                 </p>
                             </div>
-                            
-                            <div className="bg-gradient-to-r from-green-50 to-blue-50 p-6 rounded-2xl border-l-4 border-secondary">
+
+                            <div className="p-6 rounded-2xl border-l-4 border-secondary">
                                 <p className="text-gray-700 leading-relaxed">
                                     With a focus on crafting <span className="font-semibold text-secondary">secure and scalable MERN stack applications</span>, my portfolio reflects extensive experience in leveraging Redux for efficient state management. Through the execution of numerous freelance projects, I've honed this expertise, delivering solutions that not only meet but exceed client expectations. I've integrated advanced authentication mechanisms like <span className="font-semibold text-purple-600">JWT, Google Authentication, and Auth0</span>, fortifying applications with robust security measures.
                                 </p>
@@ -107,88 +107,33 @@ export default function About() {
                         </div>
                     </div>
 
-                    {/* Personal Details Section */}
-                    <div className="bg-white/80 backdrop-blur-lg rounded-3xl p-8 md:p-12 shadow-xl border border-white/20">
-                        <div className="text-center mb-12">
-                            <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-purple-400 to-pink-500 rounded-full mb-4">
-                                <SchoolIcon className="text-white text-2xl" />
+                    {/* Professional Personal Details Section */}
+                    <div className="mx-auto bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
+                        <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">Personal Details</h3>
+                        <div className="divide-y divide-gray-200">
+                            <div className="flex justify-between items-center py-4">
+                                <span className="text-xs text-gray-500 uppercase tracking-wider">Age</span>
+                                <span className="text-lg font-semibold text-primary">{age} years</span>
                             </div>
-                            <h2 className="text-4xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-                                Personal Details
-                            </h2>
-                        </div>
-                        
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                            <div className="group bg-gradient-to-br from-blue-50 to-purple-50 p-6 rounded-2xl hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
-                                <div className="flex items-center space-x-4">
-                                    <div className="w-12 h-12 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                                        <PersonIcon className="text-white" />
-                                    </div>
-                                    <div>
-                                        <p className="text-sm text-gray-500 uppercase tracking-wider">Age</p>
-                                        <p className="text-lg font-semibold text-gray-800">{age} years</p>
-                                    </div>
-                                </div>
+                            <div className="flex justify-between items-center py-4">
+                                <span className="text-xs text-gray-500 uppercase tracking-wider">Birthday</span>
+                                <span className="text-lg font-semibold text-gray-900">2 June 2003</span>
                             </div>
-
-                            <div className="group bg-gradient-to-br from-green-50 to-blue-50 p-6 rounded-2xl hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
-                                <div className="flex items-center space-x-4">
-                                    <div className="w-12 h-12 bg-gradient-to-br from-green-400 to-blue-500 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                                        <CakeIcon className="text-white" />
-                                    </div>
-                                    <div>
-                                        <p className="text-sm text-gray-500 uppercase tracking-wider">Birthday</p>
-                                        <p className="text-lg font-semibold text-gray-800">2 June 2003</p>
-                                    </div>
-                                </div>
+                            <div className="flex justify-between items-center py-4">
+                                <span className="text-xs text-gray-500 uppercase tracking-wider">Website</span>
+                                <span className="text-lg font-semibold text-primary break-all">prabhat-021portfolio.netlify.app</span>
                             </div>
-
-                            <div className="group bg-gradient-to-br from-purple-50 to-pink-50 p-6 rounded-2xl hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
-                                <div className="flex items-center space-x-4">
-                                    <div className="w-12 h-12 bg-gradient-to-br from-purple-400 to-pink-500 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                                        <WebIcon className="text-white" />
-                                    </div>
-                                    <div>
-                                        <p className="text-sm text-gray-500 uppercase tracking-wider">Website</p>
-                                        <p className="text-sm font-semibold text-gray-800 truncate">prabhat-021portfolio.netlify.app</p>
-                                    </div>
-                                </div>
+                            <div className="flex justify-between items-center py-4">
+                                <span className="text-xs text-gray-500 uppercase tracking-wider">Phone</span>
+                                <span className="text-lg font-semibold text-gray-900">+91 8445580308</span>
                             </div>
-
-                            <div className="group bg-gradient-to-br from-yellow-50 to-orange-50 p-6 rounded-2xl hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
-                                <div className="flex items-center space-x-4">
-                                    <div className="w-12 h-12 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                                        <PhoneIcon className="text-white" />
-                                    </div>
-                                    <div>
-                                        <p className="text-sm text-gray-500 uppercase tracking-wider">Phone</p>
-                                        <p className="text-lg font-semibold text-gray-800">+91 8445580308</p>
-                                    </div>
-                                </div>
+                            <div className="flex justify-between items-center py-4">
+                                <span className="text-xs text-gray-500 uppercase tracking-wider">Email</span>
+                                <span className="text-lg font-semibold text-primary break-all">theprabhatsehrawat@gmail.com</span>
                             </div>
-
-                            <div className="group bg-gradient-to-br from-red-50 to-pink-50 p-6 rounded-2xl hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
-                                <div className="flex items-center space-x-4">
-                                    <div className="w-12 h-12 bg-gradient-to-br from-red-400 to-pink-500 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                                        <EmailIcon className="text-white" />
-                                    </div>
-                                    <div>
-                                        <p className="text-sm text-gray-500 uppercase tracking-wider">Email</p>
-                                        <p className="text-sm font-semibold text-gray-800">theprabhatsehrawat@gmail.com</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="group bg-gradient-to-br from-indigo-50 to-purple-50 p-6 rounded-2xl hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
-                                <div className="flex items-center space-x-4">
-                                    <div className="w-12 h-12 bg-gradient-to-br from-indigo-400 to-purple-500 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                                        <LocationOnIcon className="text-white" />
-                                    </div>
-                                    <div>
-                                        <p className="text-sm text-gray-500 uppercase tracking-wider">City</p>
-                                        <p className="text-lg font-semibold text-gray-800">Meerut, India</p>
-                                    </div>
-                                </div>
+                            <div className="flex justify-between items-center py-4">
+                                <span className="text-xs text-gray-500 uppercase tracking-wider">City</span>
+                                <span className="text-lg font-semibold text-gray-900">Meerut, India</span>
                             </div>
                         </div>
                     </div>
