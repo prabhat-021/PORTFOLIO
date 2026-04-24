@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./pages/styles.css";
+import "./styles/portfolio.css";
 import { portfolioContent } from "./data/siteContent";
 import { navItems } from "./data/navigationItems";
 import AboutSection from "./Components/portfolio/AboutSection";
@@ -31,33 +31,51 @@ function App() {
   }, []);
 
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setActiveSection(entry.target.id);
-          }
-        });
-      },
-      {
-        rootMargin: "-35% 0px -45% 0px",
-        threshold: 0.15
-      }
-    );
+    const getClosestSection = () => {
+      const offset = 140;
+      const sections = navItems
+        .map((item) => document.getElementById(item.id))
+        .filter(Boolean);
 
-    navItems.forEach((item) => {
-      const section = document.getElementById(item.id);
-      if (section) {
-        observer.observe(section);
+      if (sections.length === 0) {
+        return;
       }
-    });
 
-    return () => observer.disconnect();
+      const closestSection = sections.reduce((currentClosest, section) => {
+        const currentDistance = Math.abs(
+          section.getBoundingClientRect().top - offset
+        );
+
+        if (!currentClosest) {
+          return { id: section.id, distance: currentDistance };
+        }
+
+        return currentDistance < currentClosest.distance
+          ? { id: section.id, distance: currentDistance }
+          : currentClosest;
+      }, null);
+
+      if (closestSection) {
+        setActiveSection((current) =>
+          current === closestSection.id ? current : closestSection.id
+        );
+      }
+    };
+
+    getClosestSection();
+    window.addEventListener("scroll", getClosestSection, { passive: true });
+    window.addEventListener("resize", getClosestSection);
+
+    return () => {
+      window.removeEventListener("scroll", getClosestSection);
+      window.removeEventListener("resize", getClosestSection);
+    };
   }, []);
 
   const handleNavClick = (event, sectionId) => {
     event.preventDefault();
     setIsMenuOpen(false);
+    setActiveSection(sectionId);
 
     const section = document.getElementById(sectionId);
     if (section) {

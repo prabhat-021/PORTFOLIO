@@ -227,13 +227,13 @@ button {
 .section {
   position: relative;
   z-index: 1;
-  padding: 3rem 0;
+  padding: 5rem 0;
   scroll-margin-top: 96px;
 }
 
 .hero-section {
   padding-top: 4.6rem;
-  /* padding-bottom: 1rem; */
+  padding-bottom: 4rem;
 }
 
 .hero-grid {
@@ -264,7 +264,7 @@ button {
 .hero-title {
   margin: 0;
   max-width: 12ch;
-  font-size: clamp(3rem, 6vw, 5rem);
+  font-size: clamp(3rem, 6vw, 5.4rem);
   line-height: 0.98;
   letter-spacing: -0.04em;
 }
