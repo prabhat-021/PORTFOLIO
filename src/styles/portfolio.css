@@ -227,7 +227,7 @@ button {
 .section {
   position: relative;
   z-index: 1;
-  padding: 5rem 0;
+  padding: 3rem 0;
   scroll-margin-top: 96px;
 }
 

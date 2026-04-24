@@ -9,7 +9,7 @@ import ecommerceImage from "../images/projectImage/ecommerce.png";
 
 export const portfolioContent = {
   name: "Prabhat Sehrawat",
-  role: "Software Engineer",
+  role: "Software Engineer at Kipi.ai",
   location: "Ghaziabad, India",
   logo,
   profileImage,
