@@ -1,5 +1,5 @@
 import resumeFile from "./Rezume.pdf";
-import aboutImage from "../images/mid-img.jpg";
+import aboutImage from "../images/mid-img.png";
 import profileImage from "../images/prabhat1.png";
 import logo from "../images/projectImage/logo.png";
 import mentorConnectImage from "../images/projectImage/college.png";
@@ -7,21 +7,17 @@ import chatAppImage from "../images/projectImage/discord.png";
 import memoriesImage from "../images/projectImage/image.png";
 import ecommerceImage from "../images/projectImage/ecommerce.png";
 
-// Update text, links, images, and project entries here.
 export const portfolioContent = {
   name: "Prabhat Sehrawat",
-  role: "Full-Stack Developer",
+  role: "Software Engineer",
   location: "Ghaziabad, India",
-  currentFocus: "Shipping reliable MERN products with stronger UI polish",
   logo,
   profileImage,
   aboutImage,
   resumeFile,
   hero: {
-    eyebrow: "MERN STACK DEVELOPER / REACT / NODE / JAVA",
+    eyebrow: "Software Engineer / Snowflake / JavaScript / JAVA",
     title: "I design and build developer-grade web products with clean UI and practical engineering.",
-    description:
-      "This new portfolio is structured as a focused single-page experience so recruiters and clients can understand the profile quickly without clicking through multiple pages.",
     highlights: [
       "Open to full-time roles",
       "Available for freelance work",
@@ -29,23 +25,21 @@ export const portfolioContent = {
     ],
     terminal: [
       "$ whoami",
-      "Prabhat Sehrawat / Full-Stack Developer",
+      "Prabhat Sehrawat / Software Engineer",
       "$ top_stack",
-      "React.js, Node.js, MongoDB, JavaScript",
+      "Snowflake, Mern, JavaScript",
       "$ current_goal",
       "Build polished, production-ready products"
     ]
   },
   about: {
     title: "Professional developer presentation without the clutter",
-    description:
-      "The layout now keeps the strongest information on one page, using stronger spacing, clearer hierarchy, and a sharper coder-style visual language.",
     lead:
       "I enjoy building full-stack applications that balance frontend clarity with backend reliability. My focus is not just writing code, but shipping interfaces that feel polished, systems that are easy to maintain, and products that communicate trust at first glance."
   },
   quickFacts: [
     { label: "Location", value: "Ghaziabad, India" },
-    { label: "Primary Focus", value: "MERN stack applications" },
+    { label: "Primary Focus", value: "SnowFlake / MERN applications" },
     { label: "Strength", value: "UI polish with practical backend work" },
     { label: "Work Style", value: "Clean, scalable, product-minded" }
   ],
@@ -155,8 +149,6 @@ export const portfolioContent = {
   ],
   contact: {
     title: "A simpler contact section that still feels premium",
-    description:
-      "The form stays on the same page so the portfolio feels complete, while contact details remain easy to update in one place.",
     intro:
       "If you want to discuss a role, freelance project, or collaboration, reach out here. You can later replace the text, phone, email, and links in this file without redesigning the page.",
     methods: [
@@ -184,8 +176,4 @@ export const portfolioContent = {
     templateId: "template_x9r3n89",
     publicKey: "Ckcxj8C6p5AXbTgFS"
   },
-  footer: {
-    subtext:
-      "Single-page developer portfolio with centralized content, cleaner structure, and easier future edits."
-  }
 };

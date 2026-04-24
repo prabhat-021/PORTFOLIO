@@ -11,7 +11,6 @@ function PortfolioFooter({ content }) {
           <p className="footer-signoff">
             Made with <FavoriteRoundedIcon className="footer-heart" /> by {content.name}
           </p>
-          <p className="footer-copy">{content.footer.subtext}</p>
         </div>
 
         <div className="footer-meta">

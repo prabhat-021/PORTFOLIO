@@ -75,14 +75,6 @@ function ContactSection({ content }) {
                 );
               })}
             </div>
-
-            <div className="contact-note">
-              <span className="section-kicker">Editing Tip</span>
-              <p>
-                Most of the text, links, and featured projects now live in one file:
-                <code>src/data/siteContent.js</code>
-              </p>
-            </div>
           </div>
 
           <div className="form-card card-surface">

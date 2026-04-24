@@ -16,7 +16,7 @@ function StackSection({ content }) {
         <SectionHeading
           kicker="Stack"
           title="A cleaner, more focused way to show what I build with"
-          description="Instead of splitting skills across separate pages, the stack is grouped into practical buckets so recruiters and clients can scan it quickly."
+          // description="Instead of splitting skills across separate pages, the stack is grouped into practical buckets so recruiters and clients can scan it quickly."
         />
 
         <div className="stack-grid">
