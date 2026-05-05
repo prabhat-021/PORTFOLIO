@@ -9,7 +9,7 @@ function ProjectsSection({ content }) {
         <SectionHeading
           kicker="Projects"
           title="Featured work that looks stronger on a single page"
-          description="Only the most useful projects are highlighted here so the portfolio feels tighter, more professional, and easier to scan."
+          description="A selection of projects that demonstrate a focus on clean UI, practical backend work, and overall polish. Each project is built with the MERN stack and highlights different aspects of my capabilities."
         />
 
         <div className="projects-grid">

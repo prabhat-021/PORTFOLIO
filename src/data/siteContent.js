@@ -150,7 +150,7 @@ export const portfolioContent = {
   contact: {
     title: "A simpler contact section that still feels premium",
     intro:
-      "If you want to discuss a role, freelance project, or collaboration, reach out here. You can later replace the text, phone, email, and links in this file without redesigning the page.",
+      "If you want to discuss a role, freelance project, or collaboration, reach out here. I check messages regularly and will do my best to respond promptly.  ",
     methods: [
       {
         iconKey: "email",
